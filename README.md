@@ -56,7 +56,7 @@ This project uses the **Pima Indians Diabetes Database**, a well-established ben
 
 **Class distribution:**
 
-![Class Distribution](./assets/class_distribution.png)
+Class Distribution
 
 500 non-diabetic vs. 268 diabetic cases (**65% / 35% split**) — a moderate class imbalance that directly shapes which evaluation metrics actually matter here (accuracy alone would be misleading — see [Results](#-model-1-logistic-regression-classifier)).
 
