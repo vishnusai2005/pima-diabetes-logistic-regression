@@ -92,7 +92,7 @@ Training on a column that's silently ~49% corrupted (`Insulin`) without catching
 - **Bivariate analysis** — strip plots of each feature against `Outcome` to visually surface separation between classes.
 - **Correlation analysis** — a full feature correlation heatmap to quantify linear relationships with the target and flag multicollinearity risk.
 
-![Correlation Heatmap](./assets/correlation_heatmap.png)
+Correlation Heatmap
 
 **Top predictors of diabetes outcome (by absolute correlation with target):**
 
@@ -178,7 +178,7 @@ Rather than treating `Outcome` purely as a class label, this branch of the proje
 
 That's **80 candidate configurations × 5 folds = 400 model fits** to find the best-performing neighbor count, distance metric, and weighting scheme.
 
-![KNN GridSearchCV Tuning](./assets/knn_grid_search.png)
+KNN GridSearchCV Tuning
 
 **Best configuration found:** `n_neighbors=20`, `weights='distance'`, `p=1` (Manhattan distance)
 
@@ -192,7 +192,7 @@ That's **80 candidate configurations × 5 folds = 400 model fits** to find the b
 
 Tuning cut test-set MSE by roughly **15%** versus an untuned default KNN — and the search consistently favored **distance-weighting** and **more neighbors (k=20)**, meaning the signal in this dataset benefits from smoothing over a wider, similarity-weighted neighborhood rather than a small, evenly-weighted one.
 
-![KNN Predicted vs Actual](./assets/knn_predicted_vs_actual.png)
+KNN Predicted vs Actual
 
 **Repurposed as a classifier** (thresholding the regressor's output at 0.5), for direct comparison with Model 1:
 
