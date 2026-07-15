@@ -40,7 +40,7 @@ This project uses the **Pima Indians Diabetes Database**, a well-established ben
 | Samples | 768 patients |
 | Features | 8 diagnostic measurements |
 | Target | `Outcome` (0 = No Diabetes, 1 = Diabetes) |
-| Missing values (explicit) | None — but see [Data Quality](#-data-quality--cleaning) below |
+| Missing values (explicit) | None — but see Data Quality below |
 
 **Feature dictionary:**
 
