@@ -59,7 +59,7 @@ This project uses the **Pima Indians Diabetes Database**, a well-established ben
 
 <img src="assets/class_distribution.png" width="480"/>
 
-500 non-diabetic vs. 268 diabetic cases (**65% / 35% split**) — a **moderate class imbalance** that directly informed the choice of evaluation metrics (see [Results](#-results)).
+500 non-diabetic vs. 268 diabetic cases (**65% / 35% split**) — a **moderate class imbalance** that directly informed the choice of evaluation metrics .
 
 ---
 
@@ -220,12 +220,3 @@ B.Tech CSE (AI & ML), Mohan Babu University, Tirupati
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
-<div align="center">
-
-⭐ If you found this project useful, consider giving it a star!
-
-</div>
