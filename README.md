@@ -288,7 +288,7 @@ jupyter notebook Logistic_Regression_diabetics.ipynb
 - [ ] Add a native `KNeighborsClassifier` run for a direct apples-to-apples comparison against the regression-based approach
 - [ ] Benchmark against Random Forest, XGBoost, and SVM to quantify the interpretability–performance trade-off
 - [ ] Add SHAP-based explainability plots for per-patient prediction breakdowns
-- [ ] Package the trained model behind a lightweight FastAPI endpoint for real-time risk scoring
+- [ ] Package the trained model behind a lightweight FastAPI endpoint for real-time risk scoring.
 
 ---
 
